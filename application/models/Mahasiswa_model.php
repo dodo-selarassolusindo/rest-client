@@ -10,7 +10,7 @@ class Mahasiswa_model extends CI_model
     {
         $this->_client = new Client([
             // 'base_uri' => 'http://localhost:8888/rest-api/wpu-rest-server/',
-            'base_uri' => 'https://rs.selarassolusindo.com/',
+            'base_uri' => 'https://rs.selarassolusindo.com',
             'auth' => ['admin', '1234']
 
         ]);
